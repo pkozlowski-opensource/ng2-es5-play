@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular2 playground: ES5</title>
+</head>
+
+<body>
+<hello-app>Loading...</hello-app>
+</body>
+
+<script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+<script src="/node_modules/rxjs/bundles/Rx.umd.js"></script>
+<script src="/node_modules/angular2/bundles/angular2-all.umd.js"></script>
+<script src="/src/hello.js"></script>
+<script>
+    ng.platform.browser.bootstrap(HelloApp);
+</script>
+
+</html>
